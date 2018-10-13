@@ -8,8 +8,8 @@ The user can also supply the encrypted version of the string and the program wil
 
 How to Use:
 Enter the string you would like to encrypt in the left text box, and once you click that Encrypt/Decrypt button, it will ask for a 
-password. The password for this version right now is "version1.0". Please note if you change the passwordkey you will not be able to 
-enter the right password for the Encryptor. Once you enter the correct password, the output will be displayed in the right textbox.
+password. The password right now is "version1.0". Please note if you change the passwordkey you will not be able to  enter the right 
+password for the Encryptor. Once you enter the correct password, the output will be displayed in the right textbox.
 Another important note is that this will only work on strings up to 32 characters long. If you enter a string with a length greater
 than 32 characters, the output will be the first 32 encrypted characters of the string.
 
@@ -39,8 +39,8 @@ EncryptorModel contains the following classes:
 	Author: Peter Forsling
 	Version 1.0 - October 8, 2018
 	PasswordKeeper has a Password data member that is encrypted with a constant key. The class has one method called VerifyPassword 
-	and it works by running the Encryptor on the user given password, and checking if it is equal to the password data member. This is 
-	used to ensure that only people who know the password can Encrypt/Decrypt.
+	and it works by running the Encryptor on the user given password, and checking if it is equal to the password data member. This
+	is used to ensure that only people who know the password can Encrypt/Decrypt.
 
 Other Files Found in this Solution:
 Readme.txt - Provides information about the project.

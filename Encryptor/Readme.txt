@@ -38,9 +38,9 @@ EncryptorModel contains the following classes:
 	PasswordKeeper
 	Author: Peter Forsling
 	Version 1.0 - October 8, 2018
-	PasswordKeeper has a Password data member that is encrypted with a constant key. The class has one method called VerifyPassword and
-	it works by running the Encryptor on the user given password, and checking if it is equal to the password data member. This is used
-	To ensure that only people who know the password can Encrypt/Decrypt.
+	PasswordKeeper has a Password data member that is encrypted with a constant key. The class has one method called VerifyPassword 
+	and it works by running the Encryptor on the user given password, and checking if it is equal to the password data member. This is 
+	used to ensure that only people who know the password can Encrypt/Decrypt.
 
 Other Files Found in this Solution:
 Readme.txt - Provides information about the project.

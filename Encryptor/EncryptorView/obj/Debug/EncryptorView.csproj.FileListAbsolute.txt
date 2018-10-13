@@ -11,3 +11,16 @@ C:\Users\Peter\source\repos\Encryptor\EncryptorView\obj\Debug\EncryptorView.pdb
 C:\Users\Peter\source\repos\Encryptor\EncryptorView\bin\Debug\EncryptorModel.dll
 C:\Users\Peter\source\repos\Encryptor\EncryptorView\bin\Debug\EncryptorModel.pdb
 C:\Users\Peter\source\repos\Encryptor\EncryptorView\obj\Debug\EncryptorView.csproj.CopyComplete
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\bin\Debug\EncryptorView.exe.config
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\bin\Debug\EncryptorView.exe
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\bin\Debug\EncryptorView.pdb
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\bin\Debug\EncryptorModel.dll
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\bin\Debug\EncryptorModel.pdb
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.csprojAssemblyReference.cache
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorDecryptor.Form1.resources
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.Properties.Resources.resources
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.csproj.GenerateResource.cache
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.csproj.CoreCompileInputs.cache
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.csproj.CopyComplete
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.exe
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.pdb

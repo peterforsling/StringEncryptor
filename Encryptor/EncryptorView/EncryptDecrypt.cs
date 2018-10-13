@@ -3,12 +3,15 @@
 // The user must enter a password in order to use this program.
 //
 // Author: Peter Forsling
-// Version: 1.0 - October 8, 2018
+// Version: 1.1 - October 12, 2018
 //
 // Version Log: 1.0 - October 8, 2018
 //              * Implemented all front end: input string, output string, password prompting,
 //                incorrect password error checking.
 //              * Implemented all back end: Password Encryption, String Encryption.
+//
+//              1.1 - October 12, 2018
+//              * Fixed a decryption bug involving lower case g by updating the key.
 
 
 using System;
@@ -43,7 +46,7 @@ namespace EncryptorDecryptor
             }
             else //If the password is correct
             {
-                resultTextBox.Text = EncryptorModel.Encryptor.EncryptDecrypt(userGivenText.Text, 'g');
+                resultTextBox.Text = EncryptorModel.Encryptor.EncryptDecrypt(userGivenText.Text, (char) 127);
             }
         }
     }

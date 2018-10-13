@@ -1,6 +1,6 @@
 Simple String Encryptor
 Author: Peter Forsling
-Version 1.0 - October 8, 2018
+Version 1.1 - October 12, 2018
 
 General Description:
 This program will take in user given strings and return an encrypted version of the given string, after typing in the correct password.
@@ -38,9 +38,7 @@ EncryptorModel contains the following classes:
 	PasswordKeeper
 	Author: Peter Forsling
 	Version 1.0 - October 8, 2018
-	PasswordKeeper has a Password data member that is encrypted with a constant key. The class has one method called VerifyPassword and
-	it works by running the Encryptor on the user given password, and checking if it is equal to the password data member. This is used
-	To ensure that only people who know the password can Encrypt/Decrypt.
+	PasswordKeeper has a Password data member that is encrypted with a constant key. The class has one method called VerifyPassword and it works by running the Encryptor on the user given password, and checking if it is equal to the password data member. This is used To ensure that only people who know the password can Encrypt/Decrypt.
 
 Other Files Found in this Solution:
 Readme.txt - Provides information about the project.
@@ -55,6 +53,9 @@ Version Log:
 1.0 - October 8, 2018
 Built to basic functionality, treats the user given string as one string. Currently has hard-coded key values for the XOR key. Only 
 seems to work on strings with a length of up to 32.
+
+1.1 - October 12, 2018
+Fixed a bug involving incorrect decryption with 'g'
 
 To Do List:
 [] - Rebuild the password window so the characters are hidden

@@ -24,3 +24,4 @@ C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\Encry
 C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.csproj.CopyComplete
 C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.exe
 C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.pdb
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorView\obj\Debug\EncryptorView.PasswordWindow.resources

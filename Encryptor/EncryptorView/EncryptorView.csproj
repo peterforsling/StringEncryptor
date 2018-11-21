@@ -53,10 +53,19 @@
     <Compile Include="EncryptDecrypt.Designer.cs">
       <DependentUpon>EncryptDecrypt.cs</DependentUpon>
     </Compile>
+    <Compile Include="PasswordWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordWindow.Designer.cs">
+      <DependentUpon>PasswordWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="EncryptDecrypt.resx">
       <DependentUpon>EncryptDecrypt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordWindow.resx">
+      <DependentUpon>PasswordWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

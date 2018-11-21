@@ -1,6 +1,6 @@
 Simple String Encryptor
 Author: Peter Forsling
-Version 1.1 - October 12, 2018
+Version 1.2 - November 17, 2018
 
 General Description:
 This program will take in user given strings and return an encrypted version of the given string, after typing in the correct password.
@@ -30,14 +30,14 @@ EncryptorModel is a Class Library that contains the actual Encryption algorithm,
 EncryptorModel contains the following classes:
 	Encryptor
 	Author: Peter Forsling
-	Version 1.0 - October 8, 2018
+	Version 1.1 - November 7, 2018
 	Encryptor contains a single method called EncryptDecrypt, which does the actual encryption process of the user given string. The
 	string is processed through XOR Encryption and is used with a literal key value. Because it's XOR Encryption with the same key
 	every time, You can Encrypt the string and Decrypt it back to its original form.
 
 	PasswordKeeper
 	Author: Peter Forsling
-	Version 1.0 - October 8, 2018
+	Version 1.1 - November 17, 2018
 	PasswordKeeper has a Password data member that is encrypted with a constant key. The class has one method called VerifyPassword 
 	and it works by running the Encryptor on the user given password, and checking if it is equal to the password data member. This
 	is used to ensure that only people who know the password can Encrypt/Decrypt.
@@ -59,11 +59,14 @@ seems to work on strings with a length of up to 32.
 1.1 - October 12, 2018
 Fixed a bug involving incorrect decryption with 'g'
 
+1.2 - November 17, 2018
+Fixed a bug involving passwords containing '6'
+
 To Do List:
 [] - Rebuild the password window so the characters are hidden
 [] - Figure out why it only works up to 32 characters
 		* Perhaps make the user input an array of strings and encrypt each string?
 [] - Combine the multiple model classes into one?
-[] -  Make it take in a file and encrypt/decrypt every string
+[] - Make it take in a file and encrypt/decrypt every string
 [] - Allow the user to supply the key value
 [] - Allow the user to set up the password

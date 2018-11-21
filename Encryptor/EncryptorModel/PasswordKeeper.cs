@@ -6,7 +6,11 @@
 // Version: 1.0 - October 8, 2018
 //
 // Version Log: 1.0 - October 8, 2018
-//              Added Password and EncryptionKey fields, and VerifyPassword Method.
+//              * Added Password and EncryptionKey fields, and VerifyPassword Method.
+//
+//              1.1 - November 17, 2018
+//              * Removed XorKey instance variable, that gets handled in Encryptor now
+//              * Updated Password to new XorKey
 
 using System;
 using System.Collections.Generic;
@@ -18,15 +22,11 @@ namespace EncryptorModel
 {
     public class PasswordKeeper
     {
-        /// <summary>
-        /// The key to use to encrypt password attempts
-        /// </summary>
-        private const char EncryptionKey = '6';
 
         /// <summary>
         /// The correct password, encrypted with the EncryptionKey variable
         /// </summary>
-        private const string Password = "@SDE_YX\a\u0018\u0006";
+        private const string Password = "\t\u001a\r\f\u0016\u0010\u0011NQO";
 
         /// <summary>
         /// Verifies if the user given password is correct
@@ -35,7 +35,7 @@ namespace EncryptorModel
         /// <returns>True if the password is correct, false otherwise</returns>
         public static bool VerifyPassword(string entered)
         {
-            return Encryptor.EncryptDecrypt(entered, EncryptionKey) == Password;
+            return Encryptor.EncryptDecrypt(entered) == Password;
         }
 
     }

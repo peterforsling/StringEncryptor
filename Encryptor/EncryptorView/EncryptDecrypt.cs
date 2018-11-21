@@ -46,7 +46,7 @@ namespace EncryptorDecryptor
             }
             else //If the password is correct
             {
-                resultTextBox.Text = EncryptorModel.Encryptor.EncryptDecrypt(userGivenText.Text, (char) 127);
+                resultTextBox.Text = EncryptorModel.Encryptor.EncryptDecrypt(userGivenText.Text);
             }
         }
     }

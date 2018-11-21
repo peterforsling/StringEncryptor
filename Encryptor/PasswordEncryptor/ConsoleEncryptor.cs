@@ -22,11 +22,10 @@ namespace PasswordEncryptor
     {
         static void Main(string[] args)
         {
-            char key = '6';
             string s = "version1.0";
-            string t = Encryptor.EncryptDecrypt(s, key);
+            string t = Encryptor.EncryptDecrypt(s);
             Console.WriteLine(t);
-            Console.WriteLine(PasswordKeeper.VerifyPassword(t));
+           // Console.WriteLine(PasswordKeeper.VerifyPassword(t));
             Console.ReadLine();
 
         }

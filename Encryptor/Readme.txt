@@ -62,8 +62,11 @@ Fixed a bug involving incorrect decryption with 'g'
 1.2 - November 17, 2018
 Fixed a bug involving passwords containing '6'
 
+1.3 - March 11, 2019
+Updated the program to use more events, Added Enter Key functionality to the password window
+
 To Do List:
-[] - Rebuild the password window so the characters are hidden
+[X] - Rebuild the password window so the characters are hidden
 [] - Figure out why it only works up to 32 characters
 		* Perhaps make the user input an array of strings and encrypt each string?
 [] - Combine the multiple model classes into one?

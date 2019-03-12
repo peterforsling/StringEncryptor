@@ -6,7 +6,7 @@ C:\Users\Peter\source\repos\Encryptor\EncryptorModel\obj\Debug\EncryptorModel.dl
 C:\Users\Peter\source\repos\Encryptor\EncryptorModel\obj\Debug\EncryptorModel.pdb
 C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorModel\bin\Debug\EncryptorModel.dll
 C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorModel\bin\Debug\EncryptorModel.pdb
-C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorModel\obj\Debug\EncryptorModel.csprojAssemblyReference.cache
 C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorModel\obj\Debug\EncryptorModel.csproj.CoreCompileInputs.cache
 C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorModel\obj\Debug\EncryptorModel.dll
 C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorModel\obj\Debug\EncryptorModel.pdb
+C:\Users\Peter\Documents\StringEncryptor\Encryptor\EncryptorModel\obj\Debug\EncryptorModel.csprojAssemblyReference.cache

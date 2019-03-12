@@ -23,31 +23,44 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EncryptorView;
 using Microsoft.VisualBasic;
 
 namespace EncryptorDecryptor
 {
     public partial class Form1 : Form
     {
+        private PasswordWindow pw;
         public Form1()
         {
+            pw = new PasswordWindow();
+            PasswordWindow.Correct += DisplayResult;
             InitializeComponent();
+            
         }
 
         private void EncryptDecrypt_Click(object sender, EventArgs e)
         {
             //prompt for the password. If it's good, then encrypt/decrypt
-            string userGivenPassword = Interaction.InputBox("Please enter the password:", "Password", "", -1, -1);
+            PromptPassword();
+        }
 
-            //If password is incorrect, give an error prompt
-            if (!EncryptorModel.PasswordKeeper.VerifyPassword(userGivenPassword))
-            {
-                MessageBox.Show("The password is incorrect.", "Incorrect Password", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else //If the password is correct
-            {
-                resultTextBox.Text = EncryptorModel.Encryptor.EncryptDecrypt(userGivenText.Text);
-            }
+        /// <summary>
+        /// Creates a new PasswordWindow and shows
+        /// the dialog of the PasswordWindow
+        /// </summary>
+        private void PromptPassword()
+        {
+            pw = new PasswordWindow();
+            pw.ShowDialog();
+        }
+
+        /// <summary>
+        /// Prints out the result to the resultTextBox, occurs after the correct password was given
+        /// </summary>
+        private void DisplayResult()
+        {
+            resultTextBox.Text = EncryptorModel.Encryptor.EncryptDecrypt(userGivenText.Text);
         }
     }
 }
